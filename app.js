@@ -1,3 +1,5 @@
-/**
- * Created by Administrator on 2015-03-05.
- */
+var http  = require('http');
+http.createServer(function(req,res){
+	console.log('hello zfpx');
+res.end('hello');
+});
